@@ -26,6 +26,9 @@
   }
   
  
-  .social-profile {
-    
+  .profile-image {
+    width: 30px; /* Adjust the width and height as needed */
+    height: 30px;
+    border-radius: 50%; /* To make the image circular */
+    margin-right: 5px; /* To create space between the image and text */
   }
