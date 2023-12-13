@@ -1,14 +1,13 @@
 
 import './App.css';
-import EngineeringComponent from './components/EngineeringComponent';
-import NavBar from './components/NavBar';
+import Navbar from './Navbar'
+
 
 function App() {
   return (
     <div className="App">
-    <EngineeringComponent />
-    <NavBar/>
-  </div>
+      <Navbar/>
+    </div>
   );
 }
 
