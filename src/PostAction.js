@@ -1,13 +1,13 @@
+// PostAction.js
 import React from 'react';
-import './PostActions.css'; 
+import './styles/PostActions.css';
 
-const PostActions = () => {
+const PostAction = () => {
   return (
     <div className="post-actions">
-      <div className="tag">All Posts</div>
-      <button className="write-post-btn">Write a Post</button>
+      <div className="tag">Posts(368)</div>
     </div>
   );
 };
 
-export default PostActions;
+export default PostAction;

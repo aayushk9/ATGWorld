@@ -1,0 +1,16 @@
+/* PostActions.css */
+.post-actions {
+  position: absolute;
+  top: 70%; /* Adjust the distance from the top */
+  left: 30%; /* Position horizontally towards the center */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.tag {
+  font-weight: bold;
+  color: #333;
+  margin-right: 20px; /* Add some right margin for spacing */
+}

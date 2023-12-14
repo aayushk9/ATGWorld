@@ -1,16 +1,19 @@
 
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import Navbar from './Navbar';
+import Images from './Images';
 import PostAction from './PostAction';
-import Create from './Create';
+import Article from './Article';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <PostAction />
-      <Create />
+      <Images />
+      <PostAction />  
+      <Article />
     </div>
   );
 }
