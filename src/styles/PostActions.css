@@ -1,9 +1,9 @@
-/* PostActions.css */
+
 .post-actions {
   position: absolute;
-  top: 70%; /* Adjust the distance from the top */
-  left: 30%; /* Position horizontally towards the center */
-  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  top: 70%; 
+  left: 30%; 
+  transform: translate(-50%, -50%); 
   display: flex;
   align-items: center;
   padding: 10px;
@@ -12,5 +12,5 @@
 .tag {
   font-weight: bold;
   color: #333;
-  margin-right: 20px; /* Add some right margin for spacing */
+  margin-right: 20px; 
 }

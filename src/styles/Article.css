@@ -1,4 +1,4 @@
- /* ArticleList.css */
+
 .article-list {
     display: flex;
     flex-wrap: wrap;
@@ -16,10 +16,10 @@
   
   
 .article img {
-    width: 100%; /* Adjust the image width */
-    max-height: 150px; /* Set a maximum height for the image */
-    object-fit: cover; /* Maintain image aspect ratio */
-    display: block; /* Ensure block display to prevent overlapping */
+    width: 100%; 
+    max-height: 150px; 
+    object-fit: cover; 
+    display: block; 
     margin: -10px -8px 24px -2px;
   }
   
@@ -28,11 +28,35 @@
     font-size: 1.5em;
     margin: 10px 0;
   }
-  .article p {
-    margin-bottom: 10px;
-    left: 40px;
-  }
   
+  
+.author1 {
+  position: relative; 
+  margin-top: 50px; 
+  margin-right: 660px;
+  font-style: italic;
+  color: #666;
+}
+
+.author2 {
+  position: relative; 
+  margin-top: 50px;
+  margin-right: 660px;
+  font-style: italic;
+  color: #666;
+}
+
+
+@media screen and (max-width: 768px) {
+  .author1,
+  .author2 {
+    position: relative; 
+    margin-top: 20px; 
+    font-style: italic;
+    color: #666;
+  }
+}
+
   
   .article h3 {
     font-style: italic;

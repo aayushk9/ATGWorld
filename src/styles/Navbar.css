@@ -28,10 +28,10 @@ input[type="text"] {
 
 
 .profile-image {
-  width: 30px; /* Adjust the width and height as needed */
+  width: 30px; 
   height: 30px;
-  border-radius: 50%; /* To make the image circular */
-  margin-right: 5px; /* To create space between the image and text */
+  border-radius: 50%; 
+  margin-right: 5px; 
 }
 
 .create-btn {
