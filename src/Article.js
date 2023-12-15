@@ -11,17 +11,18 @@ const Article = () => {
           alt="Article Image"
         />
         <h2>What if famous brands had regular fonts?</h2>
-        <p>Author</p>
+        <p className='author1' > 
+        @Rodriz</p>
       </div>
       <div className="article">
       
         <img
-          src="https://th.bing.com/th/id/OIP.f5dIKJ9m8ZaIHT3QAiR9jAHaE8?w=1920&h=1280&rs=1&pid=ImgDetMain" // Replace with your image source
+          src="https://th.bing.com/th/id/OIP.f5dIKJ9m8ZaIHT3QAiR9jAHaE8?w=1920&h=1280&rs=1&pid=ImgDetMain" 
           alt="Article Image"
         />
         <h2>Finance and Investment Elite Social Mixer @Lujaizua</h2>
 
-        <p>Author</p>
+        <p className='author2'>@Liam23</p>
       </div>
     </div>
   );
